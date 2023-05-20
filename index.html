@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Cheatsheet by Vanshika</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="copy.png" alt=""></span>
+        <div class="content center">
+            This Algo Cheatsheet is For You!
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li>C++ Basic: This is the basic c++ code
+                <pre class="language-c++"><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int main()
+{
+    cout&lt;&lt;"Hello"&lt;&lt;endl;
+}
+                </code></pre>
+            </li>
+            <li><b>Selection Sort:</b> Selection sort is a simple and efficient sorting algorithm that works by
+                repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving
+                it to the sorted portion of the list.
+                <pre class="language-c++"><code>// C++ program for implementation of
+                    
+                    #include&lt;bits/stdc++.h&gt;
+                    using namespace std;
+                    
+                    // Function for Selection sort
+                    void selectionSort(int arr[], int n)
+                    {
+                        int i, j, min_idx;
+                    
+                        // One by one move boundary of
+                        // unsorted subarray
+                        for (i = 0; i < n - 1; i++) {
+                    
+                            // Find the minimum element in
+                            // unsorted array
+                            min_idx = i;
+                            for (j = i + 1; j < n; j++) {
+                                if (arr[j] < arr[min_idx])
+                                    min_idx = j;
+                            }
+                    
+                            // Swap the found minimum element
+                            // with the first element
+                            if (min_idx != i)
+                                swap(arr[min_idx], arr[i]);
+                        }
+                    }
+                    
+                    // Function to print an array
+                    void printArray(int arr[], int size)
+                    {
+                        int i;
+                        for (i = 0; i < size; i++) {
+                            cout << arr[i] << " ";
+                            cout << endl;
+                        }
+                    }
+                    
+                    // Driver program
+                    int main()
+                    {
+                        int arr[] = { 64, 25, 12, 22, 11 };
+                        int n = sizeof(arr) / sizeof(arr[0]);
+                    
+                        // Function Call
+                        selectionSort(arr, n);
+                        cout << "Sorted array: \n";
+                        printArray(arr, n);
+                        return 0;
+                    }
+                    </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
